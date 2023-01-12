@@ -16,6 +16,7 @@ body {
   padding: 1rem;
   min-width: 400px;
   min-height: 300px;
+  
 }
 
 .title {
@@ -24,6 +25,11 @@ body {
   font-family: "BioRhyme", serif;
   color: #F6F1D1;
   text-align: center;
+}
+
+.content-data{
+  font-family: "BioRhyme", serif;
+  color: #F6F1D1;
 }
 
 .form {
@@ -39,10 +45,13 @@ body {
 }
 
 .form-input {
+  
   outline: none;
   background-color: #F6F1D1;
   border-color: rgba(255, 255, 255, 0.1);
 }
+
+
 
 .form-button {
   border: 1px;
@@ -50,6 +59,7 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .form-button:hover {
@@ -137,6 +147,8 @@ body {
   outline: none;
   border-radius: 2px;
   cursor: pointer;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 
@@ -148,6 +160,8 @@ body {
   outline: none;
   border-radius: 2px;
   cursor: pointer;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .task.done .check-button {
